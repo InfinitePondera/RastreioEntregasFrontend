@@ -1,0 +1,129 @@
+.backgroundImg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.20;
+    mix-blend-mode: darken;
+    box-shadow: 0px 4px 4px rgba(201, 229, 242, 0.25);
+    border: 3px red solid
+}
+.backgroundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://i.ibb.co/n19H6yL/3b54f57073c8b0863a8d55f7f8283ebd.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+.trackBoxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tabButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 29%;
+}
+.tabButtonsContainerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tabButtonSelected {
+    box-shadow: inset 0px 4px 4px rgba(0,0,0,0.25);
+}
+.trackBox {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 1px black solid;
+    width: 363px;
+}
+.trackTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+}
+.trackTextInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.trackInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trackButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textMajor {
+    font-size: 32px;
+    font-family: -apple-system, sans-serif;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+.textMinor {
+    font-size: 20px;
+    font-family: -apple-system, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.inputPassUser {
+    background: white;
+    border-radius: 7px;
+    border: 1px black solid;
+    height: 20px;
+    width: 40%;
+}
+.trackButton {
+    background: #5D78D8;
+    border-radius: 16px;
+    border: 1px black solid;
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    font-family: -apple-system, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.tabButton {
+    background: #D9D9D9;
+    border-radius: 16px 16px 0px 0px;
+    border: 1px black solid;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    font-family: -apple-system, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.trackIntroText {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    font-size: 40px;
+    font-family: -apple-system, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.introTextContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
