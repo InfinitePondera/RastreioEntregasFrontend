@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import './LoginComponent.css'
+import TrackComponent from "./TrackComponent";
 export default function LoginComponent() {
+    const [loginValid, setLoginValid] = useState(false);
     return (
         <>
             <div className="introTextContainer">
@@ -26,6 +28,11 @@ export default function LoginComponent() {
                     </div>
                 </div>
             </div>
+            { loginValid &&
+                <>
+                    <TrackComponent/>
+                </>
+            }
         </>
     );
 }

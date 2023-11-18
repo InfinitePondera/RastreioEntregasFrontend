@@ -7,7 +7,7 @@ import InfoComponent from "./InfoComponent";
 function App() {
   return (
       <div className="backgroundContainer">
-          <InfoComponent/>
+          <LoginComponent/>
       </div>
   );
 }
