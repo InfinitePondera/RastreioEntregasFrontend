@@ -8,6 +8,6 @@ docker build -t tracking-web .
 
 docker login
 
-docker tag tracking-web:latest jeffreyutfpr/tracking-web:latest
+docker tag tracking-web:latest jeffreyutfpr/dio/tracking-web:latest
 
-docker push jeffreyutfpr/tracking-web:latest
+docker push jeffreyutfpr/dio/tracking-web:latest
